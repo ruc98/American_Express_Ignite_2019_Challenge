@@ -39,3 +39,22 @@ It also has the following match statistics
 
 team, gender, season, date, series, match number, venue, city, toss winner, toss decision, player of match,
 umpire,umpire ,tv umpire ,match referee, winner, winner runs.
+
+## Results and Comparison between four different models
+
+Models studied:
+
+1. All overs input and single output:
+Model checkpoint: cric prediction batch.pth
+(Match prediction batch.ipynb)
+
+2. All overs input and multi output:
+Model checkpoint: cric prediction all output batch.pth
+(Match Prediction all output batch.ipynb)
+
+3. Random sample input and single output:
+Model checkpoint: cric prediction M1B1 randomsample.pth
+(Match Prediction M1B1 Architecture batch.ipynb)
+
+4. Input as cumsum of runs:
+Model checkpoint: cric prediction cumsum.pth
